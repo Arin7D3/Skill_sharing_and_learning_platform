@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @Component
 @RequiredArgsConstructor
-public class RoadmapMapper {
+public class RoadmapMapper{
 
     private final CommentMapper commentMapper;
 
