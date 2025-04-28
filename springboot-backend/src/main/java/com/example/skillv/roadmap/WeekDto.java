@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// get the public class 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
