@@ -1,7 +1,5 @@
 package com.example.skillv.auth;
 
-//Authentication
-
 import com.example.skillv.dtos.TokenDto;
 import com.example.skillv.dtos.UrlDto;
 import com.example.skillv.dtos.UserInfo;
