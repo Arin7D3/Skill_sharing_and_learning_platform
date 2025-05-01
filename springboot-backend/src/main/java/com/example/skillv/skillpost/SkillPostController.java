@@ -270,7 +270,7 @@ public class SkillPostController {
             @PathVariable("skill-post-id") String skillPostId,
             @AuthenticationPrincipal OAuth2IntrospectionAuthenticatedPrincipal principal
     ) {
-        // Get existing post
+        // Get existing post bkbh
         SkillPost existingPost = skillPostService.findById(skillPostId);
 
         // Check if user is the author
