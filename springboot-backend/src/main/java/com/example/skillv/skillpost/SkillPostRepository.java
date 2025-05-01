@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+//uuiuhik
 @Repository
 public interface SkillPostRepository extends MongoRepository<SkillPost, String> {
     List<SkillPost> findByAuthorId(String authorId, Sort sort);
