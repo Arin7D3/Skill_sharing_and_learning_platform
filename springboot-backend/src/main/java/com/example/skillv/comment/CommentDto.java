@@ -3,7 +3,7 @@ package com.example.skillv.comment;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-//dto
+
 import java.time.LocalDateTime;
 
 @Data
