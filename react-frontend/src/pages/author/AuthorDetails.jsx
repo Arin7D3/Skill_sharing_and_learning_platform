@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 import Breadcrumb from '../../components/Breadcrumb';
 import AuthorDetailsMain from './AuthorDetailsMain';
 import ScrollToTop from '../../components/ScrollTop';
-
+//
 import Logo from '../../assets/images/logos/logo2.png';
 import { useParams } from 'react-router';
 import { userService } from '../../services/userService';
