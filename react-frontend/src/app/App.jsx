@@ -15,7 +15,7 @@ import Plan from '../pages/plan';
 import PlanDetails from '../pages/plan/PlanDetails';
 import Contact from '../pages/contact';
 import Skill from '../pages/skill';
-
+//app
 import SkillDetails from '../pages/skill/SkillDetails';
 
 import HomeTwo from '../pages/home-2';
