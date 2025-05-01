@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.server.resource.introspection.OAuth2I
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// managed the notifications 
 @RestController
 @RequestMapping("/api/v1/notifications")
 @RequiredArgsConstructor
