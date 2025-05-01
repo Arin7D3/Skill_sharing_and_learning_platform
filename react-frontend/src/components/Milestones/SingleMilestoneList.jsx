@@ -2,7 +2,7 @@
 // import { Link } from 'react-router-dom';
 
 // import courseImg1 from '../../assets/images/course/1.png';
-
+//
 <<<<<<< HEAD
 const SingleMilestoneList = (props) => {
     const { itemClass, skillID, skillImg, courseName, skillTitle, courseAuthor, courseAuthorImg, courseLesson, coursePrice, courseEnrolled, skillSharingPostLikes } = props;
