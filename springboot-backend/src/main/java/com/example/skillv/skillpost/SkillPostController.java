@@ -721,11 +721,13 @@ public class SkillPostController {
         return score;
     }
 
+
     @GetMapping("/user/{user-id}/total-likes")
     public ResponseEntity<Integer> getTotalLikesForUser(@PathVariable("user-id") String userId) {
         // Validate that the user exists
         User user = userService.findById(userId);
         if (user == null) {
+            
             return ResponseEntity.notFound().build();
         }
 
@@ -737,16 +739,18 @@ public class SkillPostController {
     public ResponseEntity<Integer> getCurrentUserTotalLikes(
             @AuthenticationPrincipal OAuth2IntrospectionAuthenticatedPrincipal principal) {
 
-        // Get and validate the current user
-        String googleId = principal.getAttributes().get("sub").toString();
-        User user;
-        try {
-            user = userService.findByGoogleId(googleId);
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
-        }
 
+        // Get and validate the current user 
+        String googleId = String.valueOf(principal.getAttributes().get("sub"));
+
+        Optional<User> optionalUser = userService.findOptionalByGoogleId(googleId);
+        if (optionalUser.isEmpty()) {
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+     }
+
+        User user = optionalUser.get();
         int totalLikes = skillPostService.getTotalLikesForUser(user.getId().toHexString());
         return ResponseEntity.ok(totalLikes);
+
     }
 }
