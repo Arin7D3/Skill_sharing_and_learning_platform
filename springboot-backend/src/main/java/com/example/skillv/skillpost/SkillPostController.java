@@ -52,7 +52,7 @@ public class SkillPostController {
     private void validateFileType(MultipartFile file, String[] allowedTypes) throws BadRequestException {
         String contentType = file.getContentType();
 
-        // Check if content type is among allowed types
+        // Check if content type is among allowed types df
         boolean allowed = false;
         for (String type : allowedTypes) {
             if (type.equals(contentType)) {
