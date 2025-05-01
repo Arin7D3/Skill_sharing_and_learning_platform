@@ -5,3 +5,4 @@ public enum NotificationType {
     LIKE,
     FOLLOW
 }
+//cc

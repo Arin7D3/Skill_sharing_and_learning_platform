@@ -1,7 +1,7 @@
 import { fetchWithAuth } from './apiClient';
 
 const BASE = '/api/v1/users';
-
+//user
 export const userService = {
   getMe: () => fetchWithAuth(`${BASE}/me`),
   updateBio: (bio) => fetchWithAuth(`${BASE}/bio`, { method: 'PUT', body: JSON.stringify({ bio }) }),

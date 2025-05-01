@@ -2,7 +2,7 @@ package com.example.skillv.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-
+//dto
 @Data
 @AllArgsConstructor
 public class UserDto {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
-
+//main
 import countIcon1 from '../../assets/images/profile/2.png'
 import countIcon2 from '../../assets/images/profile/3.png'
 import countIcon3 from '../../assets/images/profile/4.png'
