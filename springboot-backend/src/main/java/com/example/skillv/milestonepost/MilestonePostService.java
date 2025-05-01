@@ -39,7 +39,7 @@ public class MilestonePostService {
         return milestonePostRepository.findAll();
     }
 
-    // Get all posts sorted by creation date (newest first)
+    // Get all posts sorted by creation date newest first
     public List<MilestonePost> findAllSorted() {
         return milestonePostRepository.findAll(Sort.by(Sort.Direction.DESC, "createdAt"));
     }
