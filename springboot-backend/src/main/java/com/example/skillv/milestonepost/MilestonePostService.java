@@ -77,7 +77,7 @@ public class MilestonePostService {
         this.milestonePostRepository.deleteById(id);
     }
 
-    // Add like to post
+    // Add like to posts
     public MilestonePost addLike(String postId, String userId, String userName) {
         MilestonePost post = findById(postId);
 
