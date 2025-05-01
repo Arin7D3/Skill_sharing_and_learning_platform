@@ -15,7 +15,7 @@ const AuthorFollowing = () => {
 
     const { showNotification } = useNotification();
     const [following, setFollowing] = useState([]);
-
+//
     useEffect(() => {
         async function fetchDataUser() {
             try {
