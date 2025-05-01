@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { planService } from '../../services/planService';
 import { useNotification } from '../../components/Notification/NotificationContext';
-//form design
+//form design  //
 export default function PlanPostForm() {
   const [formData, setFormData] = useState({
     title: '',
