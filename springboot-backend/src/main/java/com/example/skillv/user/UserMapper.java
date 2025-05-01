@@ -2,7 +2,7 @@ package com.example.skillv.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-
+//mapper
 @Component
 @RequiredArgsConstructor
 public class UserMapper {
