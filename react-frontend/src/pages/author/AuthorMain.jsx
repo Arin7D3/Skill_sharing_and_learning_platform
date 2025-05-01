@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
-
+//
 const AuthorMain = ({ authors }) => {
     return (
         <div className="instructors___page pt---120 pb---140">
