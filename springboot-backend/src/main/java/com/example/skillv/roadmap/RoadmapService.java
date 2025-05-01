@@ -89,7 +89,7 @@ public class RoadmapService {
         return roadmapRepository.save(roadmap);
     }
  
-    // Comment operations edited
+    // Comment operations edit
     public Roadmap addComment(String roadmapId, Comment comment) {
         Roadmap roadmap = getRoadmapById(roadmapId);
 
