@@ -15,6 +15,7 @@ public class MilestonePostMapper {
 
     public MilestonePost toEntity(MilestonePostRequest request) {
         return MilestonePost.builder()
+        //
                 .skill(request.getSkill())
                 .title(request.getTitle())
                 .templateType(request.getTemplateType())
