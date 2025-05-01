@@ -349,7 +349,7 @@ public class SkillPostController {
 
         SkillPost updatedPost = skillPostService.addLike(skillPostId, userId);
 
-        //Add Notification
+        //Add Notification jhy
         String notificationText = " liked your " + "'" + updatedPost.getTitle() + "'" + " skill post.";
         NotificationDto notificationDto = new NotificationDto(
                 null,
