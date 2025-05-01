@@ -12,4 +12,3 @@ public class CommentRequest {
     @NotBlank(message = "Content cannot be blank")
     private String content;
 }
-//comment
