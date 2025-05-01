@@ -25,7 +25,7 @@ const CreatedMyPlans = () => {
 
 
 
-  // Format date to relative time
+  // Format date to relative times
   const formatDate = (dateString) => {
     return dayjs(dateString).fromNow();
   };
