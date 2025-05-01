@@ -335,7 +335,7 @@ public class SkillPostController {
         return ResponseEntity.ok(skillPostMapper.toDto(skillPost));
     }
 
-    // Social interaction endpoints hhy
+    // Social interaction endpoints 
 
     @PostMapping("/{skill-post-id}/like")
     public ResponseEntity<SkillPostDto> likeSkillPost(
