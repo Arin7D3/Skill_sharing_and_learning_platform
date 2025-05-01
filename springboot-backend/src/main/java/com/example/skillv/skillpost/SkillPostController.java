@@ -169,7 +169,7 @@ public class SkillPostController {
                 return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
             }
 
-            // Create request object and set basic fields dgeryr
+            // Create request object and set basic fields 
             SkillPostRequest request = new SkillPostRequest();
             request.setSkillName(skillName);
             request.setTitle(title);
