@@ -100,7 +100,7 @@ public class SkillPostController {
                 String videoUrl = storageService.uploadFile(video, video.getOriginalFilename());
                 request.setSkillPostVideoUrl(videoUrl);
 
-                // Generate and set video thumbnail
+                // Generate and set video thumbnail jufuyf
                 String thumbnailUrl = thumbnailService.generateAndUploadThumbnail(video, videoDurationSeconds);
                 request.setSkillPostVideoThumbnailUrl(thumbnailUrl);
             }
