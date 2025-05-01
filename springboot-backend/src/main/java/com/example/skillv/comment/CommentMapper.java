@@ -3,7 +3,7 @@ package com.example.skillv.comment;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
-//map
+
 @Component
 public class CommentMapper {
     public Comment toEntity(CommentRequest request) {
