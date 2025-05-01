@@ -47,7 +47,7 @@ public class RoadmapController {
         String googleId = principal.getAttributes().get("sub").toString();
         User user = userService.findByGoogleId(googleId);
 
-        // Create roadmap entity
+        // Create roadmap entity to 
         Roadmap roadmap = roadmapMapper.toEntity(request);
         roadmap.setAuthorId(user.getId().toHexString());
         roadmap.setAuthorName(principal.getName());
