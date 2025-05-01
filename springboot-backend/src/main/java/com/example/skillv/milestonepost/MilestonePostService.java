@@ -72,7 +72,7 @@ public class MilestonePostService {
     }
 
     public void delete(String id) {
-        // Check if exists first
+        // Check if exists firsts
         findById(id);
         this.milestonePostRepository.deleteById(id);
     }
