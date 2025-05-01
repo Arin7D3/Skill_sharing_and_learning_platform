@@ -77,7 +77,7 @@ public class SkillPostController {
             @RequestParam(value = "videoDurationSeconds", required = false) Integer videoDurationSeconds
     ) {
         try {
-            // Create request object
+            // Create request object smckc
             SkillPostRequest request = new SkillPostRequest();
             request.setSkillName(skillName);
             request.setTitle(title);
