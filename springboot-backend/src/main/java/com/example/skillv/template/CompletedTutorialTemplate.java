@@ -3,7 +3,7 @@ package com.example.skillv.template;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-
+//comments
 @Data
 @AllArgsConstructor
 @Builder

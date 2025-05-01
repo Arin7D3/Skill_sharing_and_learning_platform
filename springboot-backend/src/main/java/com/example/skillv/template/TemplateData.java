@@ -2,7 +2,7 @@ package com.example.skillv.template;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
-
+//comment
 @JsonTypeInfo(
         use = JsonTypeInfo.Id.NAME,
         property = "type"
