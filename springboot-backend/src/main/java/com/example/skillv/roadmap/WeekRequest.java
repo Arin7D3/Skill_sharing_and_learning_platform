@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// get the private request
+// get the private request for
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
